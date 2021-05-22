@@ -9,3 +9,35 @@
     margin: 0 auto;
     padding: 2rem 0;
 }
+input{
+    padding: 0.5rem 2rem;
+    margin: 0.1rem 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(181, 167, 233);
+    ::placeholder{
+        font-size: 0.9rem;
+        color: rgba(128, 128, 128, 0.425);
+    }
+}
+legend{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+textarea{
+    margin: 0.1rem 0;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: blanchedalmond;
+    ::placeholder{
+        font-size: 0.9rem;
+        color: rgba(128, 128, 128, 0.425);
+    }
+}
+label{
+    font-size: 1rem;
+    font-weight: 700;
+}

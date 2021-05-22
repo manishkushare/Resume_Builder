@@ -1,0 +1,63 @@
+.container1{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+.align-item{
+    display: flex;
+    align-items: center;
+}
+.align-right{
+    text-align: right;
+}
+.resume{
+    background-color: whitesmoke;
+    border: 8px solid rgb(91,157,215);    
+    padding: 2rem 1rem;
+    h1{
+        font-size: 3rem;
+        font-weight: 700;        
+        em{
+            color:rgb(91,157,215) ;
+        }
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 0.3rem 0;
+    }
+    h3{
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 0.3rem 0;
+    }
+    h6{
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.3rem 0;
+    }
+    p{
+        font-size: 1rem;
+        color: grey;
+        padding: 0.2rem 0;
+    }
+    address{
+        font-size: 1rem;
+        color: grey;
+    }    
+}
+div:empty{
+    border-top:4px solid rgb(91,157,215);
+}
+.skills-achieve{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.company-desc{
+    width: 55%;
+}

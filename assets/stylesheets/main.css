@@ -30,7 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 ol, ul {
@@ -65,14 +67,82 @@ table {
   padding: 2rem 0;
 }
 
+input {
+  padding: 0.5rem 2rem;
+  margin: 0.1rem 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #b5a7e9;
+}
+
+input ::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+input :-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+input ::-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+input ::placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+legend {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 800;
+  padding: 1rem 0;
+}
+
+textarea {
+  margin: 0.1rem 0;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: blanchedalmond;
+}
+
+textarea ::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+textarea :-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+textarea ::-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+textarea ::placeholder {
+  font-size: 0.9rem;
+  color: rgba(128, 128, 128, 0.425);
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .hero-form {
   background-color: #dfbaeb;
 }
 
 .hero-form h2 {
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .flex-col {
@@ -143,5 +213,93 @@ table {
 .grid-col {
   display: -ms-grid;
   display: grid;
+}
+
+.container1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.justify-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.resume {
+  background-color: whitesmoke;
+  border: 8px solid #5b9dd7;
+  padding: 2rem 1rem;
+}
+
+.resume h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.resume h1 em {
+  color: #5b9dd7;
+}
+
+.resume h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.3rem 0;
+}
+
+.resume h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+}
+
+.resume h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+}
+
+.resume p {
+  font-size: 1rem;
+  color: grey;
+  padding: 0.2rem 0;
+}
+
+.resume address {
+  font-size: 1rem;
+  color: grey;
+}
+
+div:empty {
+  border-top: 4px solid #5b9dd7;
+}
+
+.skills-achieve {
+  display: -ms-grid;
+  display: grid;
+  gap: 4rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.company-desc {
+  width: 55%;
 }
 /*# sourceMappingURL=main.css.map */
